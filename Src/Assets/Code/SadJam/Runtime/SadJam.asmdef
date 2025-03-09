@@ -1,0 +1,20 @@
+{
+    "name": "SadJam",
+    "rootNamespace": "",
+    "references": [
+        "GUID:64af4f4fb5b471e439c481f8f8b9f6f4",
+        "GUID:d60799ab2a985554ea1a39cd38695018",
+        "GUID:478a2357cc57436488a56e564b08d223",
+        "GUID:4d5f9841e34c64cc39b088281a63565b",
+        "GUID:30817c1a0e6d646d99c048fc403f5979"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

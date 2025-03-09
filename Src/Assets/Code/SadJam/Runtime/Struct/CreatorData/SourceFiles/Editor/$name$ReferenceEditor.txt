@@ -1,0 +1,13 @@
+using SadJam;
+using UnityEditor;
+using UnityEngine;
+
+namespace $namespaceEditor$
+{
+    [CustomEditor(typeof(StructReferenceComponent<$struct$>), true)]
+    [CanEditMultipleObjects]
+    public class $name$ReferenceEditor : StructComponentEditor<$struct$>
+    {
+
+    }
+}

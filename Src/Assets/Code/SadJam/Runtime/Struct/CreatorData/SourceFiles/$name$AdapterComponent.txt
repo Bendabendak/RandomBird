@@ -1,0 +1,6 @@
+using UnityEngine;
+
+namespace $namespace$
+{
+    public class $name$AdapterComponent : StructAdapterComponent<$struct$> { }
+}

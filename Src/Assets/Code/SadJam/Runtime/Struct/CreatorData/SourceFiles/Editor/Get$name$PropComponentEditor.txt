@@ -1,0 +1,9 @@
+using UnityEngine;
+using UnityEditor;
+
+namespace $namespaceEditor$
+{
+    [CustomEditor(typeof(GetStructPropComponent<$struct$>), true)]
+    [CanEditMultipleObjects]
+    public class Get$name$PropComponentEditor : StructComponentEditor<$struct$> { }
+}

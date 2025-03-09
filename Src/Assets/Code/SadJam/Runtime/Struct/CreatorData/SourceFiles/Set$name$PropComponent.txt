@@ -1,0 +1,9 @@
+using UnityEngine;
+
+namespace $namespace$
+{
+    public class Set$name$PropComponent : SetStructPropComponent<$struct$>
+    {
+
+    }
+}

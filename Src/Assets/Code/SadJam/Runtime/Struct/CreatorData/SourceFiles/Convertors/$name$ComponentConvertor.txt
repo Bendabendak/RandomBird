@@ -1,0 +1,15 @@
+using System;
+using UnityEngine;
+
+namespace $namespace$
+{
+    public class $name$ComponentConvertor : StructConvertor<StructComponent<$struct$>>
+    {
+        public override object ConvertMeAs(Type type, StructComponent<$struct$> input)
+        {
+            if (type != typeof(StructComponent<$struct$>)) return null;
+    
+            return input;
+        }
+    }
+}

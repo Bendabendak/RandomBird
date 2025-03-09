@@ -1,0 +1,6 @@
+using UnityEngine;
+
+namespace $namespace$
+{
+    public class $name$CalculatorComponent : StructCalculatorComponent<$struct$> { }
+}

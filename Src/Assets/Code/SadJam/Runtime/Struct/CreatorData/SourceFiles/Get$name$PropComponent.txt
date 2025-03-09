@@ -1,0 +1,9 @@
+using UnityEngine;
+
+namespace $namespace$
+{
+    public class Get$name$PropComponent : GetStructPropComponent<$struct$>
+    {
+
+    }
+}

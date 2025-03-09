@@ -1,0 +1,18 @@
+{
+    "name": "SadJam.ExtensionsEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:64af4f4fb5b471e439c481f8f8b9f6f4"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

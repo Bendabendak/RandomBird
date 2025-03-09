@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e0667aee75a328e43ac7c6dc397d5a6a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - <SpawnConfig>k__BackingField: {fileID: 11400000, guid: e628523acd1c8ce4c935456de23a7562, type: 2}
+  - _prefab: {instanceID: 0}
+  - <SpawnPosition>k__BackingField: {instanceID: 0}
+  - <SpawnRotation>k__BackingField: {instanceID: 0}
+  - <SpawnScale>k__BackingField: {instanceID: 0}
+  - <Parent>k__BackingField: {instanceID: 0}
+  - <Config>k__BackingField: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

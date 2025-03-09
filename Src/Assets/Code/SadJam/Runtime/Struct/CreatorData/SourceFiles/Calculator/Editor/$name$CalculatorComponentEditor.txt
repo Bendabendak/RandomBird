@@ -1,0 +1,15 @@
+using UnityEngine;
+using UnityEditor;
+
+namespace $namespaceEditor$
+{
+    [CustomEditor(typeof($name$CalculatorComponent), true)]
+    [CanEditMultipleObjects]
+    public class $name$CalculatorComponentEditor : StructCalculatorComponentEditor<$struct$>
+    {
+        protected override void OnEdit()
+        {
+            CreateInstance<$name$CalculatorComponentEditorWindow>().Open(target as StructCalculatorComponent<$struct$>);
+        }
+    }
+}

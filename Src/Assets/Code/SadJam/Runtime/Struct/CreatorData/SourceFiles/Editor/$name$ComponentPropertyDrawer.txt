@@ -1,0 +1,8 @@
+using UnityEngine;
+using UnityEditor;
+
+namespace $namespaceEditor$
+{
+    [CustomPropertyDrawer(typeof(StructComponent<$struct$>), true)]
+    public class $name$ComponentPropertyDrawer : StructComponentPropertyDrawer<$struct$> { }
+}

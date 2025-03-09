@@ -1,0 +1,24 @@
+using UnityEngine;
+
+namespace $namespace$
+{
+    public class $name$Component : StructComponent<$struct$>
+    {
+        public static $struct$ operator +($name$Component a, $name$Component b)
+        {
+            return a.size + b.size;
+        }
+        public static $struct$ operator -($name$Component a, $name$Component b)
+        {
+            return a.size - b.size;
+        }
+        public static $struct$ operator /($name$Component a, $name$Component b)
+        {
+            return a.size / b.size;
+        }
+        public static $struct$ operator *($name$Component a, $name$Component b)
+        {
+            return a.size * b.size;
+        }
+    }
+}

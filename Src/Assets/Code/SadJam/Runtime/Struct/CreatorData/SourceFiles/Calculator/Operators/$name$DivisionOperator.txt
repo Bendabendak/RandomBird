@@ -1,0 +1,11 @@
+using UnityEngine;
+
+namespace $namespace$
+{
+    public class $name$DivisionOperator : $name$SaveResultOperator
+    {
+        public override string symbol => ":";
+    
+        protected override $struct$ Result($struct$ first, $struct$ second) => first / second;
+    }
+}

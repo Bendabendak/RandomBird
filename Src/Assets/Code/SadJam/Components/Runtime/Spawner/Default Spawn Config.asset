@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc72db0906715904f8759b3a26a5b583, type: 3}
+  m_Name: Default Spawn Config
+  m_EditorClassIdentifier: 
+  <SpawnStateCategory>k__BackingField: {fileID: 11400000, guid: 044b9a5f8c2c68346a47284bcb4f6f9a, type: 2}
+  <SpawnedState>k__BackingField: {fileID: 11400000, guid: 14e3b7921cf8a5340b28108d86eabdc7, type: 2}
+  <DespawnedState>k__BackingField: {fileID: 11400000, guid: 720c5881d4b3ae841adf17d048a9cb4e, type: 2}
+  <DeactivedState>k__BackingField: {fileID: 11400000, guid: 3714fc74606680b439a2f7b67f66ed52, type: 2}
+  <AwakeTrigger>k__BackingField: {fileID: 11400000, guid: b4501b5ba6c7fa347a32b00b3939ff33, type: 2}
+  <StartTrigger>k__BackingField: {fileID: 11400000, guid: 2c17aa40e0d6df242b268682cbaa6fe0, type: 2}

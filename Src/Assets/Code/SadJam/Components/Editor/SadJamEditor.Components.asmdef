@@ -1,0 +1,22 @@
+{
+    "name": "SadJamEditor.Components",
+    "rootNamespace": "",
+    "references": [
+        "GUID:deccc24f1fa77a1459b29595790ef28f",
+        "GUID:3a750a57fe1bd2b45ac790f423b8208f",
+        "GUID:5163a779c9876c64a93e4825f8117b34",
+        "GUID:64af4f4fb5b471e439c481f8f8b9f6f4",
+        "GUID:577be005fd7513e498aff0e7bad2d86b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

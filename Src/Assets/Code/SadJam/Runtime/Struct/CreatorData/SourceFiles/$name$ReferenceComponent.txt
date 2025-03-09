@@ -1,0 +1,23 @@
+using UnityEngine;
+
+namespace $namespace$
+{
+    public class $name$ReferenceComponent : $name$Component
+    {
+        public StructComponent<$struct$> target;
+    
+        public override $struct$ size => target.size;
+    
+        protected override void OnValidate()
+        {
+            base.OnValidate();
+    
+            if (target == this)
+            {
+                target = null;
+                Error("Cannot select itself!");
+                return;
+            }
+        }
+    }
+}

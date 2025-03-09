@@ -1,0 +1,28 @@
+using UnityEngine;
+
+namespace $namespace$
+{
+    public abstract class $name$SaveResultOperator : StructCalculatorOperator<$struct$>
+    {
+        [SerializeField, HideInInspector]
+        private $struct$ lastResult;
+        [SerializeField, HideInInspector]
+        private $struct$ lastFirst;
+        [SerializeField, HideInInspector]
+        private $struct$ lastSecond;
+    
+        public sealed override $struct$ Calculate($struct$ first, $struct$ second)
+        {
+            if (lastFirst == first && lastSecond == second) return lastResult;
+    
+            lastFirst = first;
+            lastSecond = second;
+    
+            lastResult = Result(first, second);
+    
+            return lastResult;
+        }
+    
+        protected abstract $struct$ Result($struct$ first, $struct$ second);
+    }
+}

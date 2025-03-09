@@ -1,0 +1,38 @@
+using System;
+using UnityEngine;
+using System.Collections.Generic;
+using SadJam;
+using SadJam.Components;
+
+namespace SadJamEditor.Components
+{
+    [CustomStructConvertor(typeof(StructComponent<Vector3>))]
+    public class Convertor_Vector2ToVector3 : StructConvertor<StructComponent<Vector2>>
+    {
+        public override void ConvertMeAs(GameObject target, Type targetType, StructComponent<Vector2> input, object before, Action<object> done, params object[] customData)
+        {
+            SplitSelection(input, 3, (string path, List<object> result) =>
+            {
+                List<UnityEngine.Component> newInputs = new(new UnityEngine.Component[3]);
+
+                if (before is StructAdapterComponent<Vector3> adapter)
+                {
+                    newInputs.AddRange(0, adapter.GetInputs<StructComponent<float>>());
+                }
+
+                int pos = -1;
+                foreach (object r in result)
+                {
+                    pos++;
+                    if (r == null) continue;
+
+                    newInputs[pos] = (UnityEngine.Component)r;
+                }
+
+                Adapter_Vector3 newAdapter = Adapter_Vector3.GetAdapter<Adapter_Vector3, SizeConvertor_FloatToVector3>(target, newInputs);
+
+                done(newAdapter);
+            });
+        }
+    }
+}
